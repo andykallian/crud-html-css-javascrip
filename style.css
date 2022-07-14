@@ -1,0 +1,141 @@
+*{
+    margin: 0;
+}
+
+body{
+    font-family: 'Roboto', sans-serif;
+    background-color: #151212d4;
+    max-width: 100vw;
+    height: 100vh;
+}
+
+header{
+    background: rgb(2,0,36);
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(47, 12, 55, 0.888) 58%, rgb(4, 53, 63) 100%);
+
+    color: white;
+
+    padding: 10px;
+    text-align: center;
+}
+
+.container{
+    width: 90%;
+    height: 100%;
+    margin: auto;
+    border: 1px solid black;
+    background-color: #f2f2ecf5
+}
+
+main{
+    padding: 30px 50px;
+    
+}
+
+.card{
+    background-color: #fff;
+    border: 1px solid #ccc;
+    padding: 20px;
+    margin-top: 15px;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-inline: auto;
+    width: 70%;
+    
+}
+
+.container-button button{
+    width: 80px;
+    font-size: .9rem;
+}
+
+
+.card button:first-of-type{
+    margin-right: 10px;
+}
+
+.lineinput{
+    display: grid;
+    margin-bottom: 10px;
+    width: 40%;
+}
+
+input{
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    outline: 0;
+}
+
+/* Chrome, Safari, Edge, Opera */
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+/* Firefox */
+input[type=number] {
+  -moz-appearance: textfield;
+}
+
+button{
+    border: 0;
+    padding: 10px;
+    outline: 0;
+    background-color: #502266;
+    color: #fff;
+    border-radius: 3px;
+    font-weight: bold;
+    transition: all ease .3s;
+    cursor: pointer;
+}
+
+button:hover{
+    background-color: #341644;
+}
+
+.content{
+    margin-top: 15px;
+}
+
+table{
+    border-collapse: collapse;
+    border: 1px solid rgb(123, 123, 123);
+    width: 70%;
+    margin: auto;
+}
+
+
+table th{
+    background-color: rgb(202, 201, 201);
+}
+
+table th,td{
+    text-align: left;
+    padding: 1px 5px;
+}
+
+.fit{
+    width: 50px;   
+}
+
+
+table td img{
+    width: 20px;
+    cursor: pointer; 
+}
+
+.flex{
+    text-align: center;
+}
+
+.flex img:nth-of-type(1){
+    margin-right: 3px;
+}
+
+.center{
+    text-align: center;
+}
